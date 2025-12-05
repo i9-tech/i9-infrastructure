@@ -43,10 +43,10 @@ jobs:
 
             # --- 2. Garantir que a rede existe ---
             # Se a rede não existir, cria ela para evitar erro no 'external: true'
-            if ! sudo docker network ls | grep -q "backend-app_app-network"; then
-              echo "⚠️ Rede não encontrada. Criando rede..."
-              sudo docker network create backend-app_app-network
-            fi
+            # if ! sudo docker network ls | grep -q "backend-app_app-network"; then
+            #   echo "⚠️ Rede não encontrada. Criando rede..."
+            #   sudo docker network create backend-app_app-network
+            # fi
 
             # --- 3. Criar Docker Compose Dinamicamente ---
             # NOTA: O conteúdo abaixo deve estar alinhado à esquerda para o YAML ser válido
