@@ -1,0 +1,6 @@
+*.pem
+*.tfstate*
+*.backuo
+.env
+*/.terraform
+*.terraform*

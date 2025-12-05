@@ -1,0 +1,13 @@
+conectar_ec2_privada = "ssh -i 'i9-key.pem' ubuntu@10-0-0-224"
+
+conectar_ec2_publica = "ssh -i 'i9-key.pem' ubuntu@ec2-3-82-98-235.compute-1.amazonaws.com"
+
+ip_instancia_publica = "3.82.98.235"
+
+ip_instancia_publica = "13.218.0.58"
+
+ips_instancias_privadas = [
+  "10.0.0.224",
+  "10.0.0.162",
+  "10.0.0.146",
+]
